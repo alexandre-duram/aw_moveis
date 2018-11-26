@@ -1,0 +1,33 @@
+body {
+    background-color: #e3e4e5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+}
+
+table {
+    margin-block-start: 100px;
+    margin-left: 565px;
+}
+
+form h2 {
+    background-color: aliceblue;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 110px;
+}
+
+#btEntrar {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-width: medium;
+    border-style: groove;
+    display: inline-block;
+    border-radius: 8px;
+    width: 90px;
+    margin-left: 630px;
+}
