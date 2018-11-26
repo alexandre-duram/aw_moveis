@@ -10,7 +10,7 @@ function Login() {
 
     password = password.toLowerCase();
 
-    if (username == "user" && password == "adm") { window.location = "index.html"; done = 1; }
+    if (username == "user" && password == "adm") { window.location = "produtos.html"; done = 1; }
     if (done == 0) { alert("Senha ou Usuário inválido."); }
 
 }
