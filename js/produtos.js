@@ -83,6 +83,9 @@ function resumirLista() {
         nomes = [];
         nomes.push(copia[i].nome); 
     }
+    resumo += aux + " Unidade(s) de cada: " + nomes.length + " Produto(s) - ";
+    resumo += (nomes.length / copia.length * 100).toFixed(2) + "%\n";
+    resumo += "(" + nomes.join(", ") + ")\n\n";
     document.getElementById("outLista").textContent = resumo;
 }
 var btResumir = document.getElementById("btResumir");
